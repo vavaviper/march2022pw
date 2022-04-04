@@ -22,11 +22,6 @@ h6 {
   color: #1e1e1e;
 }
 
-a {
-  color: #1e1e1e;
-  text-decoration: none;
-  transition: all 0.5s ease-in-out;
-}
 a:hover {
   color: #0078ff;
   text-decoration: none;
@@ -391,9 +386,11 @@ a:hover {
   border: 1px solid transparent;
   transition: all 500ms ease;
   cursor: pointer;
+  color: white;
 }
 .button:focus {
   outline: 0;
+  color: #fff;
 }
 .button:hover {
   background-color: #0062d3;
@@ -411,10 +408,12 @@ a:hover {
 .button-big {
   padding: 0.9rem 2.3rem;
   font-size: 1.2rem;
+  color: white;
 }
 
 .button-rouded {
   border-radius: 5rem;
+  color: white;
 }
 
 .btn-lg {
@@ -1294,4 +1293,29 @@ footer .credits {
 }
 footer .credits a {
   color: #fff;
+}
+a {
+  color: #1e1e1e;
+  text-decoration: none;
+  transition: all 0.5s ease-in-out;
+}
+
+.bi-instagram {
+  color: white;
+}
+
+.bi-linkedin {
+  color: white;
+}
+
+.bi-envelope {
+  color: white;
+}
+
+.bi-github {
+  color: white;
+}
+
+.bi-calendar {
+  color: white;
 }
